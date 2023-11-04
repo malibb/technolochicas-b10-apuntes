@@ -12,12 +12,17 @@
 
     Y demás
 -->
+
 <head>
     <meta charset="UTF-8">
     <!-- Los atributos modifican el comportamiento de la etiqueta -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- El titlo es lo que aparece en mi pestaña del navegador -->
     <title>Mi primer página WEB n.n' </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto&display=swap" rel="stylesheet">
     <!-- 
         PAsos para ligar mi archivo de CSS.
         1. Crear el archivo, lo llamamos style.css, a la altura de mi index.html
@@ -52,7 +57,6 @@
         font-family: "Lucida Console", "Courier New", monospace;
     }
     */
-
 </style>
 
 <!--
@@ -60,36 +64,74 @@
 -->
 
 <!-- <body style="background-color: aquamarine;">  -->
+
 <body>
-    <h1>¡Hola Mundo 🌎!</h1>
-    <h2>Bienvenidas a mi sitio web</h2>
-    <h3>Yo soy Malinali</h3>
-    <p>Soy desarrolladora, amante de las comidad y las comunidades.</p>
-    <p><a href="https://www.linkedin.com/in/malibb/" target="_blank">Mi perfil de linkedin.</a></p>
-    
-    <img src="assets/perfi.jpg" alt="foto de perfil" width="200">
-    <h3 class="times letra-verde">Conoce la iniciativa de WTM </h3>
+    <header>
+        <ul id="navegacion">
+            <li class="nav-link"><a class="active" href="#perfil">Perfil</a></li>
+            <li class="nav-link"><a href="#conoce-wtm">Conoce WTM</a></li>
+            <li class="nav-link"><a href="#inscribete-wtm">Inscribete</a></li>
+            <li class="nav-link"><a href="#footer">Contáctanos</a></li>
+        </ul>
 
-    <p>Estamos creando un mundo en el que todas las <i><b>mujeres</b></i> pueden prosperar en el ámbito de la tecnología.</p>
+        <h1>¡Hola Mundo 🌎!</h1>
+        <h2>Bienvenidas a mi sitio web</h2>
+    </header>
+    <main>
 
-    <h3 class="letra-verde">Únete como embajadora del programa</h3>
+        <section id="perfil">
+            <h3>Yo soy Malinali</h3>
+            <p>Soy desarrolladora, amante de las comidad y las comunidades.</p>
+            <p><a href="https://www.linkedin.com/in/malibb/" target="_blank">Mi perfil de linkedin.</a></p>
 
-    <img
-    src="https://developers.google.com/static/womentechmakers/images/ambassadors-1_1920.jpg"
-    alt="Imagen de mujeres del programa de WomenTechMakers"
-    width="500" />
+            <p class="centrar">
+                <img class="perfil" src="assets/perfi.jpg" alt="foto de perfil" width="200">
+                <img src="assets/perfi.jpg" alt="foto de perfil" width="200">
+                <img src="assets/perfi.jpg" alt="foto de perfil" width="200">
+            </p>
+        </section>
 
-    <p id="texto-wtm" class="letra-verde" >
-        Women Techmakers Embajadoras son líderes de todo el mundo a las que les apasiona empoderar a sus comunidades mediante la organización de eventos, la oratoria, la creación de contenido y el asesoramiento. Con acceso a una comunidad global y recursos exclusivos, los embajadores están ayudando a construir un mundo donde todas las mujeres puedan prosperar en la tecnología.
-    </p>
+        <section id="conoce-wtm">
+            <h3 class="times letra-verde">Conoce la iniciativa de WTM </h3>
 
-    <h4>Requisitos para unirte al programa.</h4>
+            <p>Estamos creando un mundo en el que todas las <i><b>mujeres</b></i> pueden prosperar en el ámbito de la
+                tecnología.</p>
+        </section>
 
-    <ol type="I">
-        <li>Ser mayor de edad.</li>
-        <li>Experiencia aportando a comunidades.</li>
-      </ol> 
+        <section id="inscribete-wtm">
+            <h3 class="letra-verde">Únete como embajadora del programa</h3>
 
+            <p class="centrar">
+                <img src="https://developers.google.com/static/womentechmakers/images/ambassadors-1_1920.jpg"
+                alt="Imagen de mujeres del programa de WomenTechMakers" width="500" />
+            </p>
+
+            <p id="texto-wtm" class="letra-verde">
+                Women Techmakers Embajadoras son líderes de todo el mundo a las que les apasiona empoderar a sus
+                comunidades mediante la organización de eventos, la oratoria, la creación de contenido y el
+                asesoramiento. Con acceso a una comunidad global y recursos exclusivos, los embajadores están ayudando a
+                construir un mundo donde todas las mujeres puedan prosperar en la tecnología.
+            </p>
+
+            <h4>Requisitos para unirte al programa.</h4>
+
+            <ol type="I">
+                <li>Ser mayor de edad.</li>
+                <li>Experiencia aportando a comunidades.</li>
+            </ol>
+
+            <ul>
+                <li><a class="active" href="#home">Perfil</a></li>
+                <li><a href="#perfil">Conoce WTM</a></li>
+                <li><a href="#contact">Inscribete</a></li>
+                <li><a href="#about">Contáctanos</a></li>
+            </ul>
+        </section>
+
+    </main>
+    <footer id="footer">
+        <h6>Hecho por Malinali: Technolochicas PRO</h6>
+    </footer>
 </body>
 
 </html>

@@ -6,33 +6,67 @@ selector {
     
     */
 
-/*
+ /*
     Selector de etiqueta: va a ubicar a toooodas las etiquetas y aplicarles los cambios de las reglas que se indican
 */
 
-body {
-    font-family: "Lucida Console", "Courier New", monospace;
+ body {
+    font-family: 'Roboto', sans-serif;
+ }
 
-}
-
-/*
+ h1, h2, h3, h4, h5, h6 {
+    font-family: 'Agbalumo';
+ }
+ /*
     Selector de clase: va a ubicar a toooodos los elementos que tengan la clase aplicada y aplicarles los cambios de las reglas que se indican.
     Recuerda que las clases se puede poner a más de un elemento y al elemento se le puede poner más de una clase
 */
 
-.times {
-  font-family: "Times New Roman", Times, serif;
-}
+ .times {
+    color: purple;
+ }
 
-.letra-verde {
-  color: green;
-}
+ .letra-verde {
+     color: green;
+ }
 
-/*
-    Selector de id: va a ubicar a el unico elementi que tenga el id y aplicarles los cambios de las reglas que se indican.
+ .centrar {
+    text-align: center;
+ }
+ /*
+    Selector de id: va a ubicar a el unico elemento que tenga el id y aplicarles los cambios de las reglas que se indican.
     Recuerda que las clases se puede poner a más de un elemento y al elemento se le puede poner más de una clase
 */
 
-#texto-wtm {
-    color: pink;
+ #texto-wtm {
+     color: pink;
+ }
+
+
+ #navegacion {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: #333;
+ }
+
+ .nav-link {
+     float: left;
+ }
+
+ .nav-link a {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+ }
+
+ .nav-link a:hover {
+     background-color: #111;
+ }
+
+ .perfil {
+    border-radius: 50%;
 }
