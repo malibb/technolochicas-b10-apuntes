@@ -1,0 +1,38 @@
+ /*Selector: va a ser la manera que tenemos para identificar a quién le vamos a aplicar la reglas que queremos poner
+selector {
+        regla1: valor1;
+        regla2: valor2;
+    }
+    
+    */
+
+/*
+    Selector de etiqueta: va a ubicar a toooodas las etiquetas y aplicarles los cambios de las reglas que se indican
+*/
+
+body {
+    font-family: "Lucida Console", "Courier New", monospace;
+
+}
+
+/*
+    Selector de clase: va a ubicar a toooodos los elementos que tengan la clase aplicada y aplicarles los cambios de las reglas que se indican.
+    Recuerda que las clases se puede poner a más de un elemento y al elemento se le puede poner más de una clase
+*/
+
+.times {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.letra-verde {
+  color: green;
+}
+
+/*
+    Selector de id: va a ubicar a el unico elementi que tenga el id y aplicarles los cambios de las reglas que se indican.
+    Recuerda que las clases se puede poner a más de un elemento y al elemento se le puede poner más de una clase
+*/
+
+#texto-wtm {
+    color: pink;
+}

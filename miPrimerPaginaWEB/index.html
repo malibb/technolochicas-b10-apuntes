@@ -18,15 +18,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- El titlo es lo que aparece en mi pestaña del navegador -->
     <title>Mi primer página WEB n.n' </title>
+    <!-- 
+        PAsos para ligar mi archivo de CSS.
+        1. Crear el archivo, lo llamamos style.css, a la altura de mi index.html
+        2. Utilizamos emmet para crear el link, "link:css" 
+        aunque también se puede hacer sin emmet,
+        escribiendo la etiqueta:
+        <link rel="stylesheet" href="nombreArchivo.css">    
+        como nuestro archivo se llama: style.css
+        la etiqueta debe ser:
+        
+        <link rel="stylesheet" href="style.css">
+     -->
+    <link rel="stylesheet" href="style.css">
 </head>
+<style>
+    /* .css */
+    /* Aquí va el código de CSS, con su propio lenguaje, su propia manera de comentar, propia manera de escribir el código */
 
+    /*Selector: va a ser la manera que tenemos para identificar a quién le vamos a aplicar la reglas que queremos poner
+    
+    selector {
+        regla1: valor1;
+        regla2: valor2;
+    }
+    
+    */
+
+
+    /* Selector de etiqueta: va a ubicar a toooodas las etiquetas y aplicarles los cambios de las reglas que se indican
+
+    h3 {
+        font-family: "Lucida Console", "Courier New", monospace;
+    }
+    */
+
+</style>
 
 <!--
     El body (cuerpo): es la etiqueta que va a guardar los elementos visuales, lo que se ve en mi sitio.
 -->
 
+<!-- <body style="background-color: aquamarine;">  -->
 <body>
-    
     <h1>¡Hola Mundo 🌎!</h1>
     <h2>Bienvenidas a mi sitio web</h2>
     <h3>Yo soy Malinali</h3>
@@ -34,18 +68,18 @@
     <p><a href="https://www.linkedin.com/in/malibb/" target="_blank">Mi perfil de linkedin.</a></p>
     
     <img src="assets/perfi.jpg" alt="foto de perfil" width="200">
-    <h3>Conoce la iniciativa de WTM </h3>
+    <h3 class="times letra-verde">Conoce la iniciativa de WTM </h3>
 
     <p>Estamos creando un mundo en el que todas las <i><b>mujeres</b></i> pueden prosperar en el ámbito de la tecnología.</p>
 
-    <h3>Únete como embajadora del programa</h3>
+    <h3 class="letra-verde">Únete como embajadora del programa</h3>
 
     <img
     src="https://developers.google.com/static/womentechmakers/images/ambassadors-1_1920.jpg"
     alt="Imagen de mujeres del programa de WomenTechMakers"
     width="500" />
 
-    <p>
+    <p id="texto-wtm" class="letra-verde" >
         Women Techmakers Embajadoras son líderes de todo el mundo a las que les apasiona empoderar a sus comunidades mediante la organización de eventos, la oratoria, la creación de contenido y el asesoramiento. Con acceso a una comunidad global y recursos exclusivos, los embajadores están ayudando a construir un mundo donde todas las mujeres puedan prosperar en la tecnología.
     </p>
 
