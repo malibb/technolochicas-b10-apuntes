@@ -70,3 +70,7 @@ selector {
  .perfil {
     border-radius: 50%;
 }
+
+#misFotos{
+    display: flex;
+}

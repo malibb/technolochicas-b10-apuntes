@@ -29,3 +29,21 @@ Por lo tanto es la telaraña de páginas web que contienen hipervinculos(links, 
 
 
 ## Por lo tanto la WEB e INTERNET son diferentes.
+
+
+# Clase Clon de google.
+
+Nos vamos a poner nuestra cachucha de desarrolladoras por lo que vamos a seguir el proceso completo:
+
+1. Crear nuestro repositorio de github para guardar nuestros avances.
+
+2. Vamos a analizar lo que tenemos que hacer.
+
+3. Vamos a crear una nueva carpeta.
+
+4. Vamos a agregar un README.md a nuestro proyecto.
+
+5. Vamos a agregar la estructura y los estilos con los archivos: `index.html` y `style.css`
+
+6. Vamos a guardar en github.
+
